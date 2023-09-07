@@ -68,7 +68,7 @@ public class StepDefi extends BaseClass {
 
 	@Then("User should be able to redirect to the homepage")
 	public void user_should_be_able_to_redirect_to_the_homepage() throws Exception {
-		Thread.sleep(5000);
+		Thread.sleep(10000);
 		url = driver.getCurrentUrl();
 	}
 
